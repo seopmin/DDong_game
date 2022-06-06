@@ -139,6 +139,7 @@ def gameStart():
         ddong_2_rect = ddong_image.get_rect()
         ddong_3_rect = ddong_image.get_rect()
 
+
         ddong_2_rect.x = ddong_2_pos_x
         ddong_2_rect.y = ddong_2_pos_y
         ddong_rect.x = ddong_pos_x
