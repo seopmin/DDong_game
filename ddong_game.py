@@ -9,6 +9,7 @@ current_path = os.path.dirname(__file__)  # 현재 파일의 위치 반환
 imamge_path = os.path.join(current_path, "images")  # images 폴더 위치 반환
 record_path = os.path.join(current_path, 'record.txt')
 
+
 def draw_score():
     font_01 = pygame.font.SysFont("FixedSsy", 30, True, False)
     text_score = font_01.render("Score : " + str(SCORE), True, BLACK)
